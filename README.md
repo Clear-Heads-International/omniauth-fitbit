@@ -1,16 +1,19 @@
-# OmniAuth Fitbit Strategy [![Build Status](https://travis-ci.org/tkgospodinov/omniauth-fitbit.svg?branch=master)](https://travis-ci.org/tkgospodinov/omniauth-fitbit.svg?branch=master)
+# OmniAuth Fitbit Strategy
 
-This gem is an OmniAuth 1.0+ Strategy for the [Fitbit API](https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API).
+**As per the creators:**
+- This gem is an OmniAuth 1.0+ Strategy for the [Fitbit API]    (https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API).
+- Version 2.0.0 was released to rubygems with support for OAuth 2. The new version requires Ruby 2+.
 
-## Latest
-Version 2.0.0 was released to rubygems with support for OAuth 2. The new version requires Ruby 2+.
+**This was forked and updated because:**
+- There seemed to be little activity or response from the original.
+- We needed the ability to specify a callback_url
 
 ## Usage
 
 Add the strategy to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-fitbit'
+gem 'omniauth-fitbit', github: 'Clear-Heads-International/omniauth-fitbit'  
 ```
 
 Then integrate the strategy into your middleware:
